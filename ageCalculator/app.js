@@ -1,3 +1,4 @@
+//Age Calculator -->
 let calAgeBtn = document.querySelector("button");
 let dobInput = document.querySelector("input");
 let res = document.querySelector("p");

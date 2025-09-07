@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #3a4452;
+  display: grid;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 430px;
+    width: 300px;
+    border: 2px solid grey;
+    margin: auto;
+    margin-top: 75px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px grey;
+    background-color: black;
+}
+
+h3{
+    text-align: end;
+    margin-right: 20px;
+    margin-bottom: 50px;
+    color: white;
+    font-size: 30px;
+    
+}
+
+.calculatorBtns{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.btns{
+    display: flex;
+    justify-content:space-around;
+}
+
+.green{
+    height: 35px;
+    width: 35px;
+    border: 2px solid black;
+    text-align: center;
+    border-radius: 50%;
+    background-color: black;
+    color: rgb(34, 255, 34);
+    box-shadow: 2px 2px 5px grey;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.white{
+    height: 35px;
+    width: 35px;
+    border: 2px solid black;
+    text-align: center;
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+    box-shadow: 2px 2px 5px grey;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.orange{
+    height: 35px;
+    width: 35px;
+    border: 2px solid black;
+    text-align: center;
+    border-radius: 50%;
+    background-color: orange;
+    color: white;
+    box-shadow: 2px 2px 5px grey;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 30px;
+}

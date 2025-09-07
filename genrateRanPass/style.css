@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: rgba(16, 16, 139, 0.774);
+}
+
+h2{
+    color: white;
+}
+span{
+    color: rgb(62, 187, 62);
+    text-decoration: underline;
+}
+
+input{
+    all: unset;
+    height: 30px;
+    width: 200px;
+    background-color: white;
+    text-align: start;
+    padding-left: 10px;
+    border-radius: 5px;
+}
+button{
+    all: unset;
+    height: 30px;
+    width: 150px;
+    background-color: rgb(62, 187, 62);
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.reset{
+    all: unset;
+    background-color: red;
+    height: 30px;
+    width: 70px;
+    border-radius: 10px;
+    color: white;
+}

@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  line-height: 0.5;
+  font-weight: 300;
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(to right, #4b3cb1, #6f9df6);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+  margin-top: 100px;
+  margin-left: 50px;
+}
+
+.ageCal {
+  height: 50px;
+  width: 250px;
+  background-color: #CCC;
+  text-align: center;
+  padding: 12px;
+  border-radius: 5px;
+}
+
+button{
+    background-color: #ffd836;
+    color: black;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+h2{
+    color:#fff
+}
+
+.yellow{
+    color:#ffd836;
+}
+
+p{
+    color:#fff;
+    font-size: 15px;
+}
+
+span{
+  color: #ffd836;
+  
+}

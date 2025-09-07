@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WMI Calculator!</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h2>EMI Calculator</h2>
+
+      <div class="loanAmt">
+        <p>Loan Amount rs</p>
+        <input type="number" id="loanAmtRs" />
+      </div>
+
+      <div class="interstRate">
+        <p>interst Rate(%)</p>
+        <input type="number" id="interstRateRs" />
+      </div>
+
+      <div class="loanTenure">
+        <p>Loan Tenure</p>
+
+        <div class="number">
+          <input type="text" id="inp" placeholder="0" />
+          <button class="mYBtn month">month</button>
+          <button class="mYBtn year">year</button>
+        </div>
+      </div>
+
+      <div class="btns">
+        <button type="submit" id="submit">Submit</button>
+        <button type="submit" id="submit" style="background-color: green;" class="green">Restart</button>
+      </div>
+
+      <div class="loanEmi amt">Loan EMI <span id="emi">rs.</span></div>
+
+      <div class="totInterst amt">
+        Toatl Interst Payable <span id="totIn">rs.</span>
+      </div>
+
+      <div class="totAmt amt">
+        Toatl Payment(Principle + interst) <span id="totAmount">rs.</span>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
